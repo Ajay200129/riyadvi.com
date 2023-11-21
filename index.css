@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+.as{
+    border: 2px solid gray;
+   
+    background-color: gray;
+}
+.abv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+ul li::before {
+    content: "\2022";
+    color: rgb(19, 88, 5);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
